@@ -32,9 +32,12 @@
       "alipayText": "支付宝打赏",
       "wechatText": "微信打赏"
     },
+    "github": {
+      "url": "https://github.com/henryZ/study-golang"
+    },
 	"edit-link": {
         "base": "https://github.com/henryZ/study-golang.git/edit/master",
-        "label": "Edit"
+        "label": "编辑本页"
     },
     "tbfed-pagefooter": {
       "copyright":"Copyright &copy www.gitbook.com/@herryZ 2016",
