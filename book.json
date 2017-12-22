@@ -35,6 +35,11 @@
       "alipayText": "支付宝打赏",
       "wechatText": "微信打赏"
     },
+    "github-buttons": {
+      "repo": "henryZ/study-golang",
+      "types": ["star"],
+      "size": "small"
+    },
     "github": {
       "url": "https://github.com/henryZ/study-golang"
     },
@@ -46,6 +51,9 @@
       "copyright":"Copyright &copy www.gitbook.com/@herryZ 2016",
       "modify_label": "该文件修订时间：",
       "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "page-toc-button":{
+      "minTocSize": 2
     }
   }
 }
