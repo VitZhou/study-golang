@@ -13,11 +13,14 @@
     "donate",
     "splitter",
     "emphasize",
+    "codesnippet",
     "tbfed-pagefooter",
 	"toggle-chapters",
+    "github-buttons@2.1.0",
     "-lunr", "-search", "search-plus",
     "github-buttons@2.1.0",
     "edit-link",
+    "theme-default"
     "codesnippet",
     "page-toc-button",
     "back-to-top-button",
@@ -36,7 +39,7 @@
       "url": "https://github.com/henryZ/study-golang"
     },
 	"edit-link": {
-        "base": "https://github.com/henryZ/study-golang.git/edit/master",
+        "base": "https://github.com/henryZ/study-golang/edit/master",
         "label": "编辑本页"
     },
     "tbfed-pagefooter": {
