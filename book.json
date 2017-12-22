@@ -20,7 +20,7 @@
     "-lunr", "-search", "search-plus",
     "github-buttons@2.1.0",
     "edit-link",
-    "theme-default"
+    "theme-default",
     "codesnippet",
     "page-toc-button",
     "back-to-top-button",
