@@ -53,7 +53,7 @@
       "modify_format": "YYYY-MM-DD HH:mm:ss"
     },
     "page-toc-button":{
-      "minTocSize": 2
+      "minTocSize": 6
     }
   }
 }
