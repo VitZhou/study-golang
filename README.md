@@ -4,6 +4,7 @@
 Golang无须多言,做中间件的必备技能
 
 - [Dep](https://github.com/golang/dep): go官方的依赖管理工具
+- [Gopkg-toml](https://github.com/golang/dep/blob/master/docs/Gopkg.toml.md):Gopkg-toml语法
 - [virtualgo](https://github.com/GetStream/vg#workspace-import-modes): 工作区间管理工具
 - [Cobra](https://github.com/spf13/cobra): 强大的命令生成工具
 
