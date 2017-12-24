@@ -1,6 +1,6 @@
 # Cobra
 
-![](img/3.png)
+![](../img/3.png)
 Cobra既是创建功能强大的现代CLI应用程序的库，也是生成应用程序和命令文件的程序。
 许多使用最广泛的Go项目都是使用Cobra构建的，其中包括：
 - [Kubernetes](http://kubernetes.io/)
@@ -81,9 +81,9 @@ Flag是修改命令行为的一种方法。 Cobra支持完全符合POSIX的标�
 
 ```shell
 $ go get -u github.com/spf13/cobra/cobra
+$ import "github.com/spf13/cobra"
 ```
 
-import "github.com/spf13/cobra"
 
 下一步,添加Cobra到你的应用中.
 

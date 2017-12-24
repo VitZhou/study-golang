@@ -49,7 +49,7 @@ $ dep init
 你将会使用一个主要的子命令:dep ensure。ensure首先检查Gopkg.lock是否与Gopkg.toml一致,并在代码中导入.如果检查到任何变化.dep的解释器将会创建一个新的Gopkg.lock.然后,dep检查vendor/的内容是否与Gopkg.lock(如果新的适用就使用新的,否则就使用现有的)一致,并且根据需要重写vendor/使其一致.
 
 从本质上讲，ensure两个阶段的工作保持四个状态桶同步：
-![](img/1.png)
+![](../../img/1.png)
 
 注意：在我们确保vendor验证之前，我们无法高效地执行Gopkg.lock < - >vendor/比较，因此dep ensure无条件地重新生成所有vendor/以确保安全。
 
@@ -135,7 +135,7 @@ $ brew install graphviz
 $ dep status -dot | dot -T png | open -f -a /Applications/Preview.app
 ```
 
-![](img/2.png)
+![](../../img/2.png)
 
 ### 更新依赖
 
