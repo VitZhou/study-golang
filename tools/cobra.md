@@ -21,6 +21,14 @@ Cobra既是创建功能强大的现代CLI应用程序的库，也是生成应用
 - [nehm](https://github.com/bogem/nehm)
 - [Pouch](https://github.com/alibaba/pouch)
 
+依赖:
+
+```xml
+[[constraint]]
+  name = "github.com/spf13/cobra"
+  revision = "7b2c5ac9fc04fc5efafb60700713d4fa609b777b"
+```
+
 ## 概述
 
 Cobra是一个库，提供了一个简单的接口来创建功能强大的现代CLI 接口，类似于git＆go工具。
