@@ -11,7 +11,7 @@ https://developers.google.com/protocol-buffers
 
 - 从https://developers.google.com/protocol-buffers 安装protocol buffer的标准C ++实现(MacOs: brew install porobuf)
 - 当然也要安装go环境
-- 从repository中获取并安装proto package.最简单的方法就是运行go -u github.com/golang/protobuf/protoc-gen-go.编译器插件protoc-gen-go将安装在$GOBIN中，默认为$GOPATH/bin。 需要将 protocol compiler,protoc添加到$PATH中
+- 从repository中获取并安装proto package.最简单的方法就是运行go get -u github.com/golang/protobuf/protoc-gen-go.编译器插件protoc-gen-go将安装在$GOBIN中，默认为$GOPATH/bin。 需要将 protocol compiler,protoc添加到$PATH中
 
 这个软件有两个部分：一个“protocol compiler plugin”，用于生成Go源文件，一旦编译，就可以访问和管理protocol buffers; 以及一个实现对编码（编组），解码（解组）和访问protocol buffer的运行时支持的库。
 在Go中使用protocol buffer支持gRPC。 有关详细信息，请参阅此文件底部的注释。
